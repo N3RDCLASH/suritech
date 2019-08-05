@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+}
+.background {
+  height: 100%;
+  background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+  filter: blur(4px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login {
+  color: Black;
+  display: block;
+  text-align: center;
+  background: white;
+  /*! grid-column: 2/2; */
+  height: 42vh;
+  width: 25%;
+  /*! float: right; */
+  min-width: 305px;
+  margin: 0 auto;
+  position: absolute;
+  font-family: arial;
+  transform: translate(-50%, -50%);top: 50%;
+  left: 50%;
+  z-index: 9999;
+  border-radius: 6px;
+}
+.login input {
+  text-align: center;
+  color: white;
+  height: 40px;
+  border-radius: 2px;
+  background: #bbd2d0;
+  width: 70%;
+  border: none;
+  margin: 3%;
+}
+.logo{
+    width: 160px;
+    margin-bottom: 6%;
+}
+.submit{
+    background: #6eb3d1 !important;
+}
